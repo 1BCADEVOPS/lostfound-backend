@@ -23,6 +23,7 @@ jobs:
 
       - name: Build with Maven
         run: mvn clean verify
+        working-directory: lostfound
 
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@v2
