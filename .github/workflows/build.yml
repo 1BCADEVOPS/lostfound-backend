@@ -28,9 +28,10 @@ jobs:
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@v2
         with:
-          args: >
-            -Dsonar.organization=23suca39-creator
-            -Dsonar.projectKey=23suca39-creator_lostfound-backend
-            -Dsonar.java.binaries=lostfound/target/classes
+            args: >
+               -Dsonar.organization=23suca39-creator
+               -Dsonar.projectKey=23suca39-creator_lostfound-backend
+               -Dsonar.java.binaries=target/classes
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+
