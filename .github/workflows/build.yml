@@ -31,5 +31,6 @@ jobs:
           args: >
             -Dsonar.organization=23suca39-creator
             -Dsonar.projectKey=23suca39-creator_lostfound-backend
+            -Dsonar.java.binaries=lostfound/target/classes
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
