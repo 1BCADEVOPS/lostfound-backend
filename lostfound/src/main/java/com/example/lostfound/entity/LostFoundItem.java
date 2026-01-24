@@ -28,7 +28,6 @@ public class LostFoundItem {
         LOST, FOUND
     }
 
-    
     public enum Status {
         NOT_RETURNED, RETURNED
     }
