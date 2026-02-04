@@ -1,4 +1,4 @@
-Project Summary
+**Project Summary**
 
 The Lost and Found Management System is a full-stack web application developed to help users report, manage, and retrieve lost or found items efficiently. The system allows users to submit item details through a user-friendly frontend interface, which are then securely processed and stored by the backend server.
 
