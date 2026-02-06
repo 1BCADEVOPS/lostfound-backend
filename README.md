@@ -66,6 +66,10 @@ Docker images were built properly for deployment and portability.
 
 7. Vercel Deployment
 
+Before deploying the frontend on Vercel, the backend of the Lost and Found Management System was successfully deployed on Render, ensuring that the REST API services were live and accessible.
+
+✅ Backend Deployment Link: https://lostfound-backend-y83x.onrender.com
+
 The frontend was successfully deployed on Vercel, enabling continuous deployment directly from GitHub.
 
 ✅ Deployment Link: https://lostfound-kaviya.vercel.app
